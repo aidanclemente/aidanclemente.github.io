@@ -221,6 +221,7 @@ width: 610px;
 
 
 /*Sidebar Connect with Me*/
+/*The size width for img links are inline*/
 #sideBarHolder {
 	width: 270px;
 	background-color: #fff;
@@ -230,6 +231,10 @@ width: 610px;
 	bottom: 448px;
 	border: 2px #ddd solid;
 }
+/*
+#connect > img {
+	width: 50px;
+}*/
 
 .portHolder {
 	top: -546px;
