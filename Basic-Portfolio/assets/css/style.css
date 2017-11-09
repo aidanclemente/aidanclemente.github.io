@@ -11,14 +11,13 @@ html, body {
 }
 
 
-/*Header*/
+/*Header Container*/
 .header {
-/*	max-width: 960px;*/
+	max-width: 960px;
 	font-family:'Georgia', Times, 'Times New Roman', serif;
 	height: 28px;
-	padding: 0 260px;
 	background-color: #fff;
-	margin: 0 20px;
+	margin: auto;
 }
 
 #nameHeader {
@@ -52,19 +51,19 @@ html, body {
 	color: #777;
 }
 
+
+/*#navBar1:visited,
+#navBar2:visited,
+#navBar3:visited{
+ 	color: blue;
+ }*/
+
 #navBar1:hover,
 #navBar2:hover,
 #navBar3:hover {
 	color: #4D4747;
 	font-weight: bolder; 
 }
-/*
-
-#navBar1:visited,
-#navBar2:visited,
-#navBar3:visited{
- 	color: blue;
- }*/
 
 
 /*Main content area*/
@@ -227,7 +226,6 @@ width: 610px;
 	background-color: #fff;
 	position: relative;
 	float: right;
-	margin-right: 275px;
 	padding: 30px 0;
 	bottom: 448px;
 	border: 2px #ddd solid;
