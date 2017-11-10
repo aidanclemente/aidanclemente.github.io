@@ -10,6 +10,10 @@ html, body {
 
 }
 
+input, textarea {
+	line-height: 30px
+}
+
 
 /*Header Container*/
 .header {
@@ -54,7 +58,7 @@ html, body {
 
 /*#navBar1:visited,
 #navBar2:visited,
-#navBar3:visited{
+#navBar3:visited {
  	color: blue;
  }*/
 
@@ -136,15 +140,15 @@ width: 610px;
 
 
 /*Portfolio Pictures*/
-#pic2, #pic4 {
-	width: 279px;
-	margin-left: 20px;
-	margin-bottom: 15px;
-}
-
 #pic1, #pic3, #pic5 {
 	width: 279px;
 	margin-right: 20px;
+	margin-bottom: 15px;
+}
+
+#pic2, #pic4 {
+	width: 279px;
+	margin-left: 20px;
 	margin-bottom: 15px;
 }
 
