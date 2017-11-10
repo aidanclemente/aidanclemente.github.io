@@ -84,6 +84,7 @@ input, textarea {
 #contentArea {
 	max-width: 960px;
 	margin: auto;
+	clear: both;
 
 }
 
@@ -232,9 +233,15 @@ width: 610px;
 	position: relative;
 	float: right;
 	padding: 30px 0;
-	bottom: 554px;
+	bottom: 449px;
 	border: 2px #ddd solid;
 }
+
+
+.contact {
+	top: -555px;
+}
+
 /*
 #connect > img {
 	width: 50px;
